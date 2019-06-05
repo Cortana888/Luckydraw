@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>web</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  		<servlet-name>Login</servlet-name>
+  		<servlet-class>com.Login</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>Login</servlet-name>
+  		<url-pattern>/Login</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>LoginCL</servlet-name>
+  		<servlet-class>com.LoginCL</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>LoginCL</servlet-name>
+  		<url-pattern>/LoginCL</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>wel</servlet-name>
+  		<servlet-class>com.wel</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>wel</servlet-name>
+  		<url-pattern>/wel</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>ConnDB</servlet-name>
+  		<servlet-class>com.ConnDB</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>ConnDB</servlet-name>
+  		<url-pattern>/ConnDB</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>UserBean</servlet-name>
+  		<servlet-class>com.UserBean</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>UserBean</servlet-name>
+  		<url-pattern>/UserBean</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>UserBeanCL</servlet-name>
+  		<servlet-class>com.UserBeanCL</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>UserBeanCL</servlet-name>
+  		<url-pattern>/UserBeanCL</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>Main</servlet-name>
+  		<servlet-class>com.Main</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>Main</servlet-name>
+  		<url-pattern>/Main</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>DelUserCL</servlet-name>
+  		<servlet-class>com.DelUserCL</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>DelUserCL</servlet-name>
+  		<url-pattern>/DelUserCL</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>Err</servlet-name>
+  		<servlet-class>com.Err</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>Err</servlet-name>
+  		<url-pattern>/Err</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>OK</servlet-name>
+  		<servlet-class>com.OK</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>OK</servlet-name>
+  		<url-pattern>/OK</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>Update</servlet-name>
+  		<servlet-class>com.Update</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>Update</servlet-name>
+  		<url-pattern>/Update</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>UpdateCL</servlet-name>
+  		<servlet-class>com.UpdateCL</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>UpdateCL</servlet-name>
+  		<url-pattern>/UpdateCL</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>Insertdate</servlet-name>
+  		<servlet-class>com.Insertdate</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>Insertdate</servlet-name>
+  		<url-pattern>/Insertdate</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>InsertdateCL</servlet-name>
+  		<servlet-class>com.InsertdateCL</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>InsertdateCL</servlet-name>
+  		<url-pattern>/InsertdateCL</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>InsertOK</servlet-name>
+  		<servlet-class>com.InsertOK</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>InsertOK</servlet-name>
+  		<url-pattern>/InsertOK</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>InsertErr</servlet-name>
+  		<servlet-class>com.InsertErr</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>InsertErr</servlet-name>
+  		<url-pattern>/InsertErr</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>Luckydraw</servlet-name>
+  		<servlet-class>com.Luckydraw</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>Luckydraw</servlet-name>
+  		<url-pattern>/Luckydraw</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>LuckydrawCL</servlet-name>
+  		<servlet-class>com.LuckydrawCL</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>LuckydrawCL</servlet-name>
+  		<url-pattern>/LuckydrawCL</url-pattern>
+  	</servlet-mapping>
+  	
+</web-app>
